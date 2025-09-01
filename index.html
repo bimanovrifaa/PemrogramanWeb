@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Saya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f7f7f7;
+    }
+    h1 {
+      color: #333;
+    }
+   img {
+     width: 200px;     
+    height: 270px;    
+    object-fit: cover; 
+    border-radius: 8px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #555;
+      padding: 8px;
+      text-align: center;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input, textarea {
+      display: block;
+      margin: 8px 0;
+      padding: 6px;
+      width: 300px;
+    }
+    button {
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+    .social-links a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Profil Saya</h1>
+     <img src="foto.jpeg" alt="Foto Profil">
+  <p>Nama saya Bima Novrifa Ananditya, Saya lahir pada tanggal 21 November 2006 dan berasal dari Medan. Saat ini ,</p> 
+    <p>Saya merupakan mahasiswa di Institut Teknologi Sepuluh Nopember (ITS) dengan jurusan Teknik Informatika.</p>
+
+ 
+
+  <h2>List hobi</h2>
+  <ul>
+    <li>Mendengarkan lagu</li>
+    <li>Main game</li>
+    <li>Ngedit</li>
+    <li>Futsal</li>
+  </ul>
+
+  <h2>Riwayat Pendidikan</h2>
+  <table>
+    <tr>
+      <th>Tahun</th>
+      <th>Institusi</th>
+    </tr>
+    <tr>
+      <td>2013 - 2019</td>
+      <td>SD IT AL-IHYA</td>
+    </tr>
+    <tr>
+      <td>2019 - 2021</td>
+      <td>SMP IT AL-IHYA</td>
+    </tr>
+    <tr>
+      <td>2021 - 2024</td>
+      <td>SMA Swasta Al-Azhar Medan</td>
+    </tr>
+    <tr>
+      <td>2024 - Sekarang</td>
+      <td>Institut Teknologi Sepuluh Nopember</td>
+    </tr>
+  </table>
+
+  <h2>Kontak</h2>
+  <form action="#" method="post">
+    <label>Nama:</label>
+    <input type="text" name="nama" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Pesan:</label>
+    <textarea name="pesan" rows="5" required></textarea>
+
+    <button type="submit">Kirim</button>
+  </form>
+
+  <h2>Media Sosial</h2>
+  <div class="social-links">
+    <a href="https://instagram.com/bimanovrifaa" target="_blank">Instagram</a>
+  </div>
+
+</body>
+</html>
